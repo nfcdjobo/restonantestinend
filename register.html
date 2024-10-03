@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> MaVie'is </title>
+    <link rel="stylesheet" href="./styles/login.css">
+</head>
+<body>
+    <div class="container">
+        
+        <div class="signup-form">
+            <p class="alertSucces" id="alertSucces"></p>
+            <p class="alertError" id="alertError"></p>
+            <h2>Inscription</h2>
+            <form action="signup.php" method="post">
+                <input type="text" name="fullname" id="name" placeholder="Nom complet" required>
+                <input type="email" name="email" id="email" placeholder="Adresse e-mail" required>
+                <input type="password" name="password" id="password" placeholder="Mot de passe" required>
+                <input type="password" name="password" id="password_c" placeholder="Répéter mot de passe" required>
+                <button type="button" id="submit">S'inscrire</button>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="javascript/register.js"></script>
+</html>
+
+
+
